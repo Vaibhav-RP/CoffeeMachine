@@ -17,7 +17,7 @@ class MyBeverage implements BeverageInterface {
         milk = new Ingredient("milk", "ml", 50);
         teaLeaves = new Ingredient("tea leaves", "gm", 5);
     }
-
+    
     @Override
     public List<Ingredient> getIngredients() {
         List<Ingredient> ingredients = new ArrayList<>();
